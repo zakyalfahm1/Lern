@@ -1,0 +1,118 @@
+body {
+  /* Responsive Design */
+  @media (max-width: 1270px) {
+    body {
+      max-width: 90%; /* Laptop*/
+    }
+
+    .LC h2 {
+      font-size: 22px;
+    }
+
+    .LC input,
+    .LC button {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    body {
+      max-width: 100%; /* Lebar container di mobile */
+      padding: 15px;
+    }
+
+    .LC h2 {
+      font-size: 20px;
+    }
+
+    .LC input,
+    .LC button {
+      font-size: 12px;
+    }
+  }
+
+  /* else */
+  width: 1280px;
+  margin: auto;
+  font-family: sans-serif Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  margin-top: 5%;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: rgb(9, 9, 9);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  font-size: 120%;
+}
+
+main {
+  margin: auto;
+  width: 470px;
+  padding: 10px;
+
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  clear: left;
+}
+.LC h2 {
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.LC input[type="username"] {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 5px;
+}
+.LC input[type="password"] {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 5px;
+}
+.remar {
+  margin: 5px 5px 5px 15px;
+
+  display: flex;
+  flex-direction: row;
+}
+.remar a {
+  text-decoration: none;
+  margin-left: 54%;
+}
+
+.LC button {
+  width: 95%;
+  margin: 5px;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(235, 234, 234);
+  cursor: pointer;
+}
+.LC button:hover {
+  background-color: rgb(194, 195, 196);
+}
